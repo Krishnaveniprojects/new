@@ -1,0 +1,37 @@
+body{
+    background-color:lightblue;
+}
+
+form {
+    border: double 2px gray;
+    padding:15px;
+    width:600px;
+    flex-direction: row;
+    color: rgb(194, 242, 243);
+    margin-top: 160px;
+    text-align: center;
+    font-weight:bold;
+    font-size: large;
+    
+
+    
+}
+.reg:hover img{
+    opacity: 0.5px;
+}
+form input:hover{
+    background-color:rgb(158, 238, 238);
+}
+.reg{
+    justify-content:center;
+    display:flex;
+    align-items:center;
+}
+h4{
+    text-align: center;
+}
+@media (max-width:400px){  
+form{
+    flex-direction: column;
+}
+}
